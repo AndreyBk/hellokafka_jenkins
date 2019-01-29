@@ -1,4 +1,5 @@
 import org.junit.Test;
+import propre.mail.ru.Main;
 
 import static org.junit.Assert.assertEquals;
 

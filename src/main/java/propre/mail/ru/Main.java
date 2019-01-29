@@ -1,15 +1,15 @@
+package propre.mail.ru;
+
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Random;
 
 public class Main {
     private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Main.class);
-    static String filename = "dic.txt";
-    static BufferedReader bufferedReader;
-    static ArrayList dictioner;
+//    static String filename = "dic.txt";
+//    static BufferedReader bufferedReader;
+//    static ArrayList dictioner;
+static BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String inputWord = "";
         int i, q;
