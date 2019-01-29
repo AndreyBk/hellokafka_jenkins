@@ -1,3 +1,5 @@
+package propre.mail.ru;
+
 import org.junit.Test;
 import propre.mail.ru.Main;
 

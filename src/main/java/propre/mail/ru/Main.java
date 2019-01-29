@@ -3,7 +3,7 @@ package propre.mail.ru;
 import java.io.*;
 
 public class Main {
-    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Main.class);
+//    private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(Main.class);
 //    static String filename = "dic.txt";
 //    static BufferedReader bufferedReader;
 //    static ArrayList dictioner;
