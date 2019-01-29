@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-propre.mail.ru.Main-Class: propre.mail.ru.Main
+Main-Class: propre.mail.ru.Main
 
