@@ -1,0 +1,6 @@
+-classpath 'C:\\BK\\JavaProjects\\serenity_test_1\\build\\classes\\java\\main;C:\\BK\\JavaProjects\\serenity_test_1\\build\\resources\\main;C:\\Users\\AChernousov\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-slf4j-impl\\2.10.0\\8e4e0a30736175e31c7f714d95032c1734cfbdea\\log4j-slf4j-impl-2.10.0.jar;C:\\Users\\AChernousov\\.gradle\\caches\\modules-2\\files-2.1\\org.slf4j\\slf4j-api\\1.8.0-alpha2\\34fa1d87256bbdb376ae7f6fa7e479610cd07dce\\slf4j-api-1.8.0-alpha2.jar;C:\\Users\\AChernousov\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-core\\2.10.0\\c90b597163cd28ab6d9687edd53db601b6ea75a1\\log4j-core-2.10.0.jar;C:\\Users\\AChernousov\\.gradle\\caches\\modules-2\\files-2.1\\org.apache.logging.log4j\\log4j-api\\2.10.0\\fec5797a55b786184a537abd39c3fa1449d752d6\\log4j-api-2.10.0.jar'
+-d 'C:\\BK\\JavaProjects\\serenity_test_1\\build\\docs\\javadoc'
+-doctitle 'serenity_test_1 1.0-SNAPSHOT API'
+-quiet 
+-windowtitle 'serenity_test_1 1.0-SNAPSHOT API'
+'C:\\BK\\JavaProjects\\serenity_test_1\\src\\main\\java\\propre\\mail\\ru\\Main.java'
