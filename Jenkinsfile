@@ -6,7 +6,7 @@ pipeline {
             gradle "GRADLE_LATEST"
           }
 
-        //stages{
+    stages{
         // stage ('Hello 1'){
         //    steps {
         //          echo '********************************123***********'
@@ -18,6 +18,7 @@ pipeline {
                sh 'gradle -version'
             }
          }
+    }
 
 
 
