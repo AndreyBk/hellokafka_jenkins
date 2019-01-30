@@ -1,6 +1,6 @@
 node {
     stage ('Hello'){
-    echo 'Hello'
+    echo 'Hello WWorld'
     }
 
 
