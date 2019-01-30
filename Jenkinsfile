@@ -2,7 +2,7 @@
 
 //    agent any
 node {
-    stages 'Hello2'
+    stage 'Hello2'
     echo 'Hello33'
 
     // stage('Build') {
