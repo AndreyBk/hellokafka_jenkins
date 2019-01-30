@@ -1,14 +1,20 @@
-//pipeline {
+pipeline {
 
-//    agent any
-node {
-    stage 'Hello2'
-    echo 'Hello33'
+    agent any
 
-    // stage('Build') {
-    //        steps {
-    //            sh 'gradlew build'
-    //        }
-    //    }
-    //}
+        stages{
+         stage ('Hello 1'){
+               echo '********************************123***********'
+         }
+
+         stage ('Hello 2'){
+               echo '********************************123***********'
+         }
+
+
+
+
+
+     }
+
 }
