@@ -11,7 +11,6 @@ pipeline {
 
          stage ('My build'){
             steps {
-               echo '********************************123***********'
                gradlew build
             }
          }
