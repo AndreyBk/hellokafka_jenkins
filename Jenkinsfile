@@ -9,9 +9,9 @@ pipeline {
             }
          }
 
-         stage ('My build'){
+         stage ('Hello 2'){
             steps {
-                   echo 'here build '
+               echo '********************************123***********'
             }
          }
 
