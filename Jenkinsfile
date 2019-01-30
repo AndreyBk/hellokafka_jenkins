@@ -2,9 +2,9 @@ pipeline {
 
     agent any
 
-    tools {
-            gradle 'GRADLE_LATEST'
-          }
+   // tools {
+   //         gradle 'GRADLE_LATEST'
+   //       }
 
     stages{
         // stage ('Hello 1'){
