@@ -1,16 +1,14 @@
+//pipeline {
+
+//    agent any
 node {
-    stage '1 step'
-    echo 'Hello WWorld'
+    stages 'Hello2'
+    echo 'Hello33'
 
-
-    stage '2 step'
-    echo 'Hello 2'
-    
-
-//     stage ('Build') {
-//            steps {
-//               sh 'gradlew build'
-//            }
-//        }
- //   }
+    // stage('Build') {
+    //        steps {
+    //            sh 'gradlew build'
+    //        }
+    //    }
+    //}
 }
