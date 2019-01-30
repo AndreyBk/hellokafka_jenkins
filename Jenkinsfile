@@ -2,7 +2,7 @@ node {
     stages 'Hello'
     echo 'Hello'
 
-     stage('Build') {
+     stage 'Build' {
             steps {
                sh 'gradlew build'
             }
