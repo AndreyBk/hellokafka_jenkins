@@ -1,12 +1,14 @@
-pipeline {
+//pipeline {
 
-    agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                sh 'gradlew build'
-            }
-        }
-    }
+//    agent any
+node {
+    stages 'Hello'
+    echo 'Hello'
+     
+    // stage('Build') {
+    //        steps {
+    //            sh 'gradlew build'
+    //        }
+    //    }
+    //}
 }
