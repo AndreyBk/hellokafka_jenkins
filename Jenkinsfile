@@ -1,13 +1,16 @@
 node {
-    stage ('Hello'){
+    stage ('1 step'){
     echo 'Hello WWorld'
     }
 
-
-     stage ('Build') {
-            steps {
-               sh 'gradlew build'
-            }
-        }
+    stage ('2 step'){
+    echo 'Hello 2'
     }
+
+//     stage ('Build') {
+//            steps {
+//               sh 'gradlew build'
+//            }
+//        }
+ //   }
 }
