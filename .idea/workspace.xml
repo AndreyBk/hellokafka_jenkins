@@ -194,8 +194,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1758" />
-    <option name="y" value="95" />
+    <option name="x" value="78" />
+    <option name="y" value="57" />
     <option name="width" value="1612" />
     <option name="height" value="964" />
   </component>
@@ -247,7 +247,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548849898934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548850162693" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../selenium1" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />

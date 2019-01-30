@@ -19,7 +19,7 @@ pipeline {
 
          stage ('My build'){
             steps {
-               sh 'gradle -version'
+               sh 'gradle build'
             }
          }
     }
