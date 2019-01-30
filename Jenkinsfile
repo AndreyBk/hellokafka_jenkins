@@ -11,7 +11,7 @@ pipeline {
 
          stage ('My build'){
             steps {
-               sh 'sudo ./gradle build'
+            echo 'here build sh sudo ./gradle build'
             }
          }
 
