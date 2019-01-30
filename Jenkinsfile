@@ -9,9 +9,10 @@ pipeline {
             }
          }
 
-         stage ('Hello 2'){
+         stage ('My build'){
             steps {
                echo '********************************123***********'
+               gradlew build
             }
          }
 
