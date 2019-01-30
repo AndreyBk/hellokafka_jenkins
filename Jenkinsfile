@@ -11,7 +11,7 @@ pipeline {
 
          stage ('My build'){
             steps {
-               sh './gradle build'
+               sh 'sudo ./gradle build'
             }
          }
 

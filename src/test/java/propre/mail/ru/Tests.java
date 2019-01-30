@@ -12,6 +12,6 @@ public class Tests {
     }
     @Test
     public void test_sum() {
-        assertEquals(Main.sum(4), 9);
+        assertEquals(Main.sum(4), 8);
     }
 }
