@@ -10,7 +10,7 @@ version '1.0-SNAPSHOT'
 
 buildscript {
     project.ext {
-        serenityVersion = '1.1+'
+        serenityVersion = '2.0+'
     }
 
     repositories {
