@@ -1,132 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.mail.propre.features.authentication.WhenAuthenticating" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-01-31T12:26:28" hostname="WSACHERNOUSOV" time="46.821">
+<testsuite name="ru.mail.propre.features.authentication.WhenAuthenticating" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-31T12:57:25" hostname="WSACHERNOUSOV" time="6.877">
   <properties/>
-  <testcase name="shouldBeAbleToLoginAsAdmin" classname="ru.mail.propre.features.authentication.WhenAuthenticating" time="46.821">
-    <failure message="org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: &#10;,&quot;32&quot;:&quot;icons/lightbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}&#13;&#10;1548937590106&#9;addons.xpi&#9;DEBUG&#9;Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{54f46ec6-4fb3-4dd1-96a2-a7a424ae7bf1}&quot;,&quot;version&quot;:&quot;3.0.0&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1548361023534,&quot;updateDate&quot;:1548361023534,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}&#13;&#10;1548937590106&#9;addons.xpi-utils&#9;DEBUG&#9;Updating add-on states&#13;&#10;1548937590108&#9;addons.xpi&#9;DEBUG&#9;Calling bootstrap method startup on formautofill@mozilla.org version 1.0&#13;&#10;1548937590109&#9;addons.xpi&#9;DEBUG&#9;Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0&#13;&#10;1548937590109&#9;addons.xpi&#9;DEBUG&#9;Calling bootstrap method startup on webcompat@mozilla.org version 3.0.0&#13;&#10;1548937590110&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for XPIProvider&#13;&#10;1548937590110&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: XPIProvider&#13;&#10;1548937590110&#9;addons.manager&#9;DEBUG&#9;Starting provider: LightweightThemeManager&#13;&#10;1548937590110&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for LightweightThemeManager&#13;&#10;1548937590110&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: LightweightThemeManager&#13;&#10;1548937590111&#9;addons.manager&#9;DEBUG&#9;Starting provider: GMPProvider&#13;&#10;1548937590112&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for GMPProvider&#13;&#10;1548937590112&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: GMPProvider&#13;&#10;1548937590112&#9;addons.manager&#9;DEBUG&#9;Starting provider: PluginProvider&#13;&#10;1548937590112&#9;addons.manager&#9;DEBUG&#9;Registering shutdown blocker for PluginProvider&#13;&#10;1548937590112&#9;addons.manager&#9;DEBUG&#9;Provider finished startup: PluginProvider&#13;&#10;1548937590114&#9;addons.manager&#9;DEBUG&#9;Completed startup sequence&#13;&#10;1548937590545&#9;addons.repository&#9;DEBUG&#9;No addons.json found.&#13;&#10;1548937590847&#9;addons.manager&#9;DEBUG&#9;Registering upgrade listener for formautofill@mozilla.org&#13;&#10;1548937590873&#9;addons.xpi&#9;DEBUG&#9;Ignoring file: name is not a valid add-on ID: C:\Users\AChernousov\AppData\Local\Temp\anonymous8205030145523728333webdriver-profile\extensions\webdriver-staging&#13;&#10;1548937590873&#9;addons.xpi&#9;DEBUG&#9;Existing add-on formautofill@mozilla.org in app-system-defaults&#13;&#10;1548937590873&#9;addons.xpi&#9;DEBUG&#9;Existing add-on screenshots@mozilla.org in app-system-defaults&#13;&#10;1548937590874&#9;addons.xpi&#9;DEBUG&#9;Existing add-on webcompat-reporter@mozilla.org in app-system-defaults&#13;&#10;1548937590874&#9;addons.xpi&#9;DEBUG&#9;Existing add-on webcompat@mozilla.org in app-system-defaults&#13;&#10;1548937590874&#9;addons.xpi&#9;DEBUG&#9;scanForChanges changed: false, state: {}&#13;&#10;JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2625: TypeError: addon is null&#13;&#10;JavaScript error: resource://devtools/client/shared/vendor/react-dom.js, line 33: Error: Minified React error #31; visit https://reactjs.org/docs/error-decoder.html?invariant=31&amp;args[]=object%20with%20keys%20%7Btype%2C%20initial%2C%20length%2C%20actor%7D&amp;args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings. &#13;&#10;&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'WSACHERNOUSOV', ip: '169.254.183.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'&#10;Driver info: driver.version: FirefoxDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
-,&quot;32&quot;:&quot;icons/lightbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1548937590106	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{54f46ec6-4fb3-4dd1-96a2-a7a424ae7bf1}&quot;,&quot;version&quot;:&quot;3.0.0&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1548361023534,&quot;updateDate&quot;:1548361023534,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1548937590106	addons.xpi-utils	DEBUG	Updating add-on states
-1548937590108	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.0
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1548937590110	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1548937590110	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1548937590111	addons.manager	DEBUG	Starting provider: GMPProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1548937590112	addons.manager	DEBUG	Starting provider: PluginProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1548937590114	addons.manager	DEBUG	Completed startup sequence
-1548937590545	addons.repository	DEBUG	No addons.json found.
-1548937590847	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-1548937590873	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\AChernousov\AppData\Local\Temp\anonymous8205030145523728333webdriver-profile\extensions\webdriver-staging
-1548937590873	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1548937590873	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2625: TypeError: addon is null
-JavaScript error: resource://devtools/client/shared/vendor/react-dom.js, line 33: Error: Minified React error #31; visit https://reactjs.org/docs/error-decoder.html?invariant=31&amp;args[]=object%20with%20keys%20%7Btype%2C%20initial%2C%20length%2C%20actor%7D&amp;args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings. 
-
-Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
-System info: host: 'WSACHERNOUSOV', ip: '169.254.183.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: driver.version: FirefoxDriver
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:125)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:216)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:211)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:124)
-	at ru.mail.propre.features.authentication.WhenAuthenticating.shouldBeAbleToLoginAsAdmin(WhenAuthenticating.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at net.serenitybdd.junit.runners.SerenityStatement.evaluate(SerenityStatement.java:24)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:427)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:52)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:241)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.lang.Thread.run(Thread.java:748)
-Caused by: org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-,&quot;32&quot;:&quot;icons/lightbulb.svg&quot;,&quot;48&quot;:&quot;icons/lightbulb.svg&quot;,&quot;96&quot;:&quot;icons/lightbulb.svg&quot;,&quot;128&quot;:&quot;icons/lightbulb.svg&quot;},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1548937590106	addons.xpi	DEBUG	Updating XPIState for {&quot;id&quot;:&quot;webcompat@mozilla.org&quot;,&quot;syncGUID&quot;:&quot;{54f46ec6-4fb3-4dd1-96a2-a7a424ae7bf1}&quot;,&quot;version&quot;:&quot;3.0.0&quot;,&quot;type&quot;:&quot;extension&quot;,&quot;loader&quot;:null,&quot;updateURL&quot;:null,&quot;optionsURL&quot;:null,&quot;optionsType&quot;:null,&quot;optionsBrowserStyle&quot;:true,&quot;aboutURL&quot;:null,&quot;defaultLocale&quot;:{&quot;name&quot;:&quot;Web Compat&quot;,&quot;description&quot;:&quot;Urgent post-release fixes for web compatibility.&quot;,&quot;creator&quot;:null,&quot;developers&quot;:null,&quot;translators&quot;:null,&quot;contributors&quot;:null},&quot;visible&quot;:true,&quot;active&quot;:true,&quot;userDisabled&quot;:false,&quot;appDisabled&quot;:false,&quot;installDate&quot;:1548361023534,&quot;updateDate&quot;:1548361023534,&quot;applyBackgroundUpdates&quot;:1,&quot;path&quot;:&quot;C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi&quot;,&quot;skinnable&quot;:false,&quot;sourceURI&quot;:null,&quot;releaseNotesURI&quot;:null,&quot;softDisabled&quot;:false,&quot;foreignInstall&quot;:false,&quot;strictCompatibility&quot;:true,&quot;locales&quot;:[],&quot;targetApplications&quot;:[{&quot;id&quot;:&quot;toolkit@mozilla.org&quot;,&quot;minVersion&quot;:&quot;59.0b5&quot;,&quot;maxVersion&quot;:null}],&quot;targetPlatforms&quot;:[],&quot;seen&quot;:true,&quot;dependencies&quot;:[],&quot;userPermissions&quot;:{&quot;permissions&quot;:[&quot;webRequest&quot;,&quot;webRequestBlocking&quot;],&quot;origins&quot;:[&quot;&lt;all_urls&gt;&quot;]},&quot;icons&quot;:{},&quot;iconURL&quot;:null,&quot;blocklistState&quot;:0,&quot;blocklistURL&quot;:null,&quot;startupData&quot;:null,&quot;hidden&quot;:true,&quot;installTelemetryInfo&quot;:null,&quot;location&quot;:&quot;app-system-defaults&quot;}
-1548937590106	addons.xpi-utils	DEBUG	Updating add-on states
-1548937590108	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.0
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1548937590110	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1548937590110	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1548937590111	addons.manager	DEBUG	Starting provider: GMPProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1548937590112	addons.manager	DEBUG	Starting provider: PluginProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1548937590114	addons.manager	DEBUG	Completed startup sequence
-1548937590545	addons.repository	DEBUG	No addons.json found.
-1548937590847	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-1548937590873	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\AChernousov\AppData\Local\Temp\anonymous8205030145523728333webdriver-profile\extensions\webdriver-staging
-1548937590873	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1548937590873	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2625: TypeError: addon is null
-JavaScript error: resource://devtools/client/shared/vendor/react-dom.js, line 33: Error: Minified React error #31; visit https://reactjs.org/docs/error-decoder.html?invariant=31&amp;args[]=object%20with%20keys%20%7Btype%2C%20initial%2C%20length%2C%20actor%7D&amp;args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings. 
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
-	... 57 more
-</failure>
-  </testcase>
+  <testcase name="shouldBeAbleToLoginAsAdmin" classname="ru.mail.propre.features.authentication.WhenAuthenticating" time="6.877"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - 
 
@@ -152,105 +27,18 @@ JavaScript error: resource://devtools/client/shared/vendor/react-dom.js, line 33
 TEST STARTED: shouldBeAbleToLoginAsAdmin
 -------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
-org.openqa.selenium.firefox.NotConnectedException: Unable to connect to host 127.0.0.1 on port 7055 after 45000 ms. Firefox console output:
-,"32":"icons/lightbulb.svg","48":"icons/lightbulb.svg","96":"icons/lightbulb.svg","128":"icons/lightbulb.svg"},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"location":"app-system-defaults"}
-1548937590106	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{54f46ec6-4fb3-4dd1-96a2-a7a424ae7bf1}","version":"3.0.0","type":"extension","loader":null,"updateURL":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":true,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"developers":null,"translators":null,"contributors":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1548361023534,"updateDate":1548361023534,"applyBackgroundUpdates":1,"path":"C:\\Program Files\\Mozilla Firefox\\browser\\features\\webcompat@mozilla.org.xpi","skinnable":false,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"toolkit@mozilla.org","minVersion":"59.0b5","maxVersion":null}],"targetPlatforms":[],"seen":true,"dependencies":[],"userPermissions":{"permissions":["webRequest","webRequestBlocking"],"origins":["<all_urls>"]},"icons":{},"iconURL":null,"blocklistState":0,"blocklistURL":null,"startupData":null,"hidden":true,"installTelemetryInfo":null,"location":"app-system-defaults"}
-1548937590106	addons.xpi-utils	DEBUG	Updating add-on states
-1548937590108	addons.xpi	DEBUG	Calling bootstrap method startup on formautofill@mozilla.org version 1.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 35.0.0
-1548937590109	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 3.0.0
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
-1548937590110	addons.manager	DEBUG	Provider finished startup: XPIProvider
-1548937590110	addons.manager	DEBUG	Starting provider: LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
-1548937590110	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
-1548937590111	addons.manager	DEBUG	Starting provider: GMPProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: GMPProvider
-1548937590112	addons.manager	DEBUG	Starting provider: PluginProvider
-1548937590112	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
-1548937590112	addons.manager	DEBUG	Provider finished startup: PluginProvider
-1548937590114	addons.manager	DEBUG	Completed startup sequence
-1548937590545	addons.repository	DEBUG	No addons.json found.
-1548937590847	addons.manager	DEBUG	Registering upgrade listener for formautofill@mozilla.org
-1548937590873	addons.xpi	DEBUG	Ignoring file: name is not a valid add-on ID: C:\Users\AChernousov\AppData\Local\Temp\anonymous8205030145523728333webdriver-profile\extensions\webdriver-staging
-1548937590873	addons.xpi	DEBUG	Existing add-on formautofill@mozilla.org in app-system-defaults
-1548937590873	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat-reporter@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
-1548937590874	addons.xpi	DEBUG	scanForChanges changed: false, state: {}
-JavaScript error: resource://gre/modules/addons/XPIProvider.jsm, line 2625: TypeError: addon is null
-JavaScript error: resource://devtools/client/shared/vendor/react-dom.js, line 33: Error: Minified React error #31; visit https://reactjs.org/docs/error-decoder.html?invariant=31&args[]=object%20with%20keys%20%7Btype%2C%20initial%2C%20length%2C%20actor%7D&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings. 
-
-	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.start(NewProfileExtensionConnection.java:113)
-	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:271)
-	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:119)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:216)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:211)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:207)
-	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:124)
-	at ru.mail.propre.features.authentication.WhenAuthenticating.shouldBeAbleToLoginAsAdmin(WhenAuthenticating.java:33)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
-	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
-	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
-	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
-	at net.serenitybdd.junit.runners.SerenityStatement.evaluate(SerenityStatement.java:24)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
-	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:427)
-	at net.serenitybdd.junit.runners.SerenityRunner.runChild(SerenityRunner.java:52)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at net.serenitybdd.junit.runners.SerenityRunner.run(SerenityRunner.java:241)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:106)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
-	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
-	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:66)
-	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
-	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:117)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
-	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:155)
-	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:137)
-	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-	at java.lang.Thread.run(Thread.java:748)
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 14145
+Only local connections are allowed.
 [Test worker] WARN net.thucydides.core.requirements.PackageRequirementsTagProvider - To generate correct requirements coverage reports you need to set the 'serenity.test.root' property to the package representing the top of your requirements hierarchy.
-[Test worker] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED WITH ERROR: Should be able to login as admin
----------------------------------------------------------------------
-[Test worker] ERROR net.serenitybdd.core.Serenity - Failed to connect to binary FirefoxBinary(C:\Program Files\Mozilla Firefox\firefox.exe) on port 7055; process output follows: 
+TEST PASSED: Should be able to login as admin
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>

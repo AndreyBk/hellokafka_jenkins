@@ -23,9 +23,11 @@ public class WhenAuthenticating {
 
     @Test
     public void shouldBeAbleToLoginAsAdmin() {
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver");
 //        System.setProperty("webdriver.chrome.driver", "C:\\BK\\JavaProjects\\chromedriver_win32\\chromedriver.exe");
 //        System.setProperty("webdriver.gecko.driver", "C:\\BK\\JavaProjects\\geckodriver\\geckodriver.exe");
 //
+
 //        ProfilesIni profile = new ProfilesIni();
 //
 //        FirefoxProfile myprofile = profile.getProfile("profileToolsQA");

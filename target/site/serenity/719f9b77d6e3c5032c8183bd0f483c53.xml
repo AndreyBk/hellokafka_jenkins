@@ -1,6 +1,24 @@
-<acceptance-test-run title="Should be able to login as admin" name="shouldBeAbleToLoginAsAdmin" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="46770" timestamp="2019-01-31T15:26:28.492+03:00" test-source="JUnit">
+<acceptance-test-run title="Should be able to login as admin" name="shouldBeAbleToLoginAsAdmin" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="6822" timestamp="2019-01-31T15:57:25.277+03:00" session-id="83cc480498dde19e061d0219a5ed21ca" test-source="JUnit">
   <user-story id="ru.mail.propre.features.authentication.WhenAuthenticating" name="When authenticating" path="ru.mail.propre.features.authentication"/>
   <tags>
     <tag name="When authenticating" type="story"/>
   </tags>
+  <test-step result="SUCCESS" duration="4343">
+    <screenshots>
+      <screenshot image="b23c601971f9985ae76a3aab745f4a71.png"/>
+    </screenshots>
+    <description>*** Step 1 *** </description>
+  </test-step>
+  <test-step result="SUCCESS" duration="1770">
+    <screenshots>
+      <screenshot image="8928da91a69097a822a0bfaf748e8026.png"/>
+    </screenshots>
+    <description>Logs in as admin</description>
+  </test-step>
+  <test-step result="SUCCESS" duration="631">
+    <screenshots>
+      <screenshot image="8928da91a69097a822a0bfaf748e8026.png"/>
+    </screenshots>
+    <description>Should be on landing page</description>
+  </test-step>
 </acceptance-test-run>
