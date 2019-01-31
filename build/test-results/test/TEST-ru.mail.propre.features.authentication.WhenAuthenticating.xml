@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.mail.propre.features.authentication.WhenAuthenticating" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-31T12:57:25" hostname="WSACHERNOUSOV" time="6.877">
+<testsuite name="ru.mail.propre.features.authentication.WhenAuthenticating" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-31T13:09:51" hostname="WSACHERNOUSOV" time="6.447">
   <properties/>
-  <testcase name="shouldBeAbleToLoginAsAdmin" classname="ru.mail.propre.features.authentication.WhenAuthenticating" time="6.877"/>
+  <testcase name="shouldBeAbleToLoginAsAdmin" classname="ru.mail.propre.features.authentication.WhenAuthenticating" time="6.447"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[[Test worker] INFO net.serenitybdd.core.Serenity - 
 
@@ -27,7 +27,7 @@
 TEST STARTED: shouldBeAbleToLoginAsAdmin
 -------------------------------------------------------------------
 [Test worker] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
-Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 14145
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 4768
 Only local connections are allowed.
 [Test worker] WARN net.thucydides.core.requirements.PackageRequirementsTagProvider - To generate correct requirements coverage reports you need to set the 'serenity.test.root' property to the package representing the top of your requirements hierarchy.
 [Test worker] INFO net.serenitybdd.core.Serenity - 

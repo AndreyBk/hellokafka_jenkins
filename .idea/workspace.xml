@@ -7,7 +7,72 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb37af0f-ee75-4566-8a15-07d4f0cef01c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ru/mail/propre/features/authentication/WhenAuthenticating.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ru/mail/propre/features/authentication/WhenAuthenticating.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.mail.propre.Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.mail.propre.Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.mail.propre.features.authentication.WhenAuthenticating.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ru.mail.propre.features.authentication.WhenAuthenticating.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.mail.propre.features.authentication.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.mail.propre.features.authentication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.mail.propre.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/ru.mail.propre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.mail.propre.Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.mail.propre.Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ru.mail.propre.features.authentication.WhenAuthenticating.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ru.mail.propre.features.authentication.WhenAuthenticating.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1230186394020797572_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1544762847246396896_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_1948937781603410023_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2327375179827977050_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_2359058536130501525_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_3092146756111373883_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4029268317577328740_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_410310039619623067_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4187445969641131622_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_433354087279308702_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4827750335760988129_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4857818281481876622_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4963205420203489731_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_4999626027453089568_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5527204734487312593_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_5706226699659143293_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_6284794154088280917_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_7871883697539400262_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8321648920052457475_tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/test/jar_extract_8865238701951379702_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ru/mail/propre/features/authentication/WhenAuthenticating.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/mail/propre/features/authentication/WhenAuthenticating.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/019231c0b2b0d6ea3421df77962228df.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/019231c0b2b0d6ea3421df77962228df.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/350e4ed46734a1e28cf29b96a92e58fb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/350e4ed46734a1e28cf29b96a92e58fb.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/350e4ed46734a1e28cf29b96a92e58fb.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/350e4ed46734a1e28cf29b96a92e58fb.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e8563bda0168fd357ec299ec2639be4.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e8563bda0168fd357ec299ec2639be4.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6e8563bda0168fd357ec299ec2639be4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6e8563bda0168fd357ec299ec2639be4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/719f9b77d6e3c5032c8183bd0f483c53_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/766f719afd13721f76d8431084475fc2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/766f719afd13721f76d8431084475fc2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/766f719afd13721f76d8431084475fc2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/766f719afd13721f76d8431084475fc2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7c33b874c1a2f22012342d896116c2ff.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7c33b874c1a2f22012342d896116c2ff.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7c33b874c1a2f22012342d896116c2ff.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7c33b874c1a2f22012342d896116c2ff.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/87fe8be1e72ba1a257989adcb3f705be.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/87fe8be1e72ba1a257989adcb3f705be.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/87fe8be1e72ba1a257989adcb3f705be.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/87fe8be1e72ba1a257989adcb3f705be.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-719f9b77d6e3c5032c8183bd0f483c53.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-719f9b77d6e3c5032c8183bd0f483c53.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ce81faa7993810e83b16bc3457e28b78.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ce81faa7993810e83b16bc3457e28b78.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ce81faa7993810e83b16bc3457e28b78.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ce81faa7993810e83b16bc3457e28b78.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/de4b090ce1d1cc74bd9552424c531268.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/de4b090ce1d1cc74bd9552424c531268.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/ea11c6adad565fe508420189bee0a4e0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/ea11c6adad565fe508420189bee0a4e0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f586406a7579bb0819dcffb76b3d54e0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/f586406a7579bb0819dcffb76b3d54e0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -81,8 +146,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/propre/features/authentication/WhenAuthenticating.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+            <state relative-caret-position="329">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,7 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="117" />
     <option name="y" value="71" />
     <option name="width" value="1612" />
@@ -290,6 +355,13 @@
             <path>
               <item name="serenity_test_1" type="b2602c69:ProjectViewProjectNode" />
               <item name="serenity_test_1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serenity_test_1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serenity_test_1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -313,7 +385,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548939459880" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548940214551" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lecture07" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -480,9 +552,10 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="117" y="71" width="1612" height="964" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14304124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.118336886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -497,7 +570,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.60890496" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4637053" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.2654388" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
@@ -506,7 +579,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.20103092" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.1663113" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -625,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ru/mail/propre/features/authentication/WhenAuthenticating.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="27" column="92" selection-start-line="27" selection-start-column="92" selection-end-line="27" selection-end-column="92" />
+        <state relative-caret-position="329">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
