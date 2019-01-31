@@ -1,0 +1,6 @@
+<acceptance-test-run title="Should be able to login as admin" name="shouldBeAbleToLoginAsAdmin" steps="0" successful="0" failures="0" skipped="0" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="46770" timestamp="2019-01-31T15:26:28.492+03:00" test-source="JUnit">
+  <user-story id="ru.mail.propre.features.authentication.WhenAuthenticating" name="When authenticating" path="ru.mail.propre.features.authentication"/>
+  <tags>
+    <tag name="When authenticating" type="story"/>
+  </tags>
+</acceptance-test-run>

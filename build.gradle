@@ -1,42 +1,37 @@
-plugins {
-    id 'java'
-}
-
-group 'serenity_test_1'
-version '1.0-SNAPSHOT'
-
-sourceCompatibility = 1.8
+apply plugin: 'java'
+apply plugin: 'net.serenity-bdd.aggregator'
 
 repositories {
-    mavenCentral()
+    mavenLocal()
+    jcenter()
 }
 
+version '1.0-SNAPSHOT'
+
+buildscript {
+    project.ext {
+        serenityVersion = '1.1+'
+    }
+
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+
+    dependencies {
+        classpath('net.serenity-bdd:serenity-gradle-plugin:' + serenityVersion)
+    }
+}
 
 dependencies {
-    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
-    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.9'
-    // https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl
-    compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.10.0'
-    // https://mvnrepository.com/artifact/junit/junit
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile 'junit:junit:4.12'
+    testCompile 'net.serenity-bdd:serenity-core:' + serenityVersion
+    testCompile 'net.serenity-bdd:serenity-junit:' + serenityVersion
+    testCompile 'org.assertj:assertj-core:3.4+'
+    testCompile 'org.slf4j:slf4j-simple:1.7+'
 }
 
-jar {
-    from configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
-    manifest {
-        attributes(
-//                'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-                'Main-Class': 'ru.mail.propre.Main'
-        )
-    }
-}
-    uploadArchives {
-        repositories {
-            flatDir {
-                dirs 'repos'
-            }
-        }
-    }
+gradle.startParameter.continueOnFailure = true
 
 
 
