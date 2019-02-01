@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="ru.mail.propre.features.authentication.WhenAuthenticating" skipped="0" tests="1" time="6.4" timestamp="2019-01-31 04:09:51"><testcase classname="ru.mail.propre.features.authentication.WhenAuthenticating" name="Should be able to login as admin"/></testsuite>

@@ -10,155 +10,50 @@
 
     <link rel="shortcut icon" href="favicon.ico">
 
-<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-<!--[if IE 7]>
-<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
-<![endif]--><!-- JQuery -->
-<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+    <!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/all.css">
+<link rel="stylesheet" href="fontawesome-free-5.3.1-web/css/v4-shims.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
 <link rel="stylesheet" href="css/link.css"/>
 <link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
 <link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
 <script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
-<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
-<link type="text/css" href="css/tables.css" rel="stylesheet" />
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
 
-<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
-<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- jQplot -->
-<!--[if IE]>
-<script language="javascript" type="text/javascript" src="excanvas/3/excanvas.compiled.js"></script>
-<![endif]--><link rel="stylesheet" type="text/css" href="jqplot/1.0.8/jquery.jqplot.min.css"/>
-<script type="text/javascript" src="jqplot/1.0.8/jquery.jqplot.min.js"></script>
-<script type="text/javascript" src="jqplot/1.0.8/plugins/jqplot.pieRenderer.min.js"></script>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
 
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
 
-    <script class="code" type="text/javascript">$(document).ready(function () {
-        var test_results_plot = $.jqplot('test_results_pie_chart', [
-            [
-                ['Passing', 1],
-                
-                ['Pending', 0],
-                
-                ['Ignored', 0],
-                
-                ['Failing', 0],
-                
-                ['Errors',  0]
-            ]
-        ], {
-
-            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
-            seriesColors: ['#30cb23',
-                
-                '#a2f2f2',
-                
-                '#eeeadd',
-                
-                '#f8001f',
-                
-                '#fc6e1f'],
-            seriesDefaults: {
-                renderer: $.jqplot.PieRenderer,
-                trendline: { show: false },
-                rendererOptions: { padding: 8, showDataLabels: true }
-            },
-            legend: {
-                show: true,
-                placement: 'outside',
-                rendererOptions: {
-                    numberRows: 2
-                },
-                location: 's',
-                marginTop: '15px'
-            },
-            series: [
-                {label: '1 / 1 tests passed' },
-                {label: '0 / 1 tests pending'},
-                {label: '0 / 1 tests not executed'},
-                {label: '0 / 1 tests failed'},
-                {label: '0 / 1 errors'}
-            ]
-        });
-
-        var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
-            [
-                ['Passing', 1],
-                
-                ['Pending', 0],
-                
-                ['Ignored', 0],
-                
-                ['Failing', 0],
-                
-                ['Errors', 0]
-            ]
-        ], {
-
-            gridPadding: {top: 0, bottom: 38, left: 0, right: 0},
-            seriesColors: ['#30cb23',
-                
-                '#a2f2f2',
-                
-                '#eeeadd',
-                
-                '#f8001f',
-                
-                '#fc6e1f'],
-
-            seriesDefaults: {
-                renderer: $.jqplot.PieRenderer,
-                trendline: { show: false },
-                rendererOptions: { padding: 8, showDataLabels: true }
-            },
-            legend: {
-                show: true,
-                placement: 'outside',
-                rendererOptions: {
-                    numberRows: 2
-                },
-                location: 's',
-                marginTop: '15px'
-            },
-            series: [
-                {label: '1 / 1 tests passed (1% of all test steps)' },
-                {label: '0 / 1 tests pending'},
-                {label: '0 / 1 tests not executed'},
-                {label: '0 / 1 tests failed (0% of all test steps)'},
-                {label: '0 / 1 errors (0% of all test steps)'}
-            ]
-        });
-
-        // Results table
-        $('#test-results-table').DataTable({
-            "order": [
-                [ 1, "asc" ]
-            ],
-            "pageLength": 25
-        });
-
-        // Pie charts
-        $('#test-results-tabs').tabs();
-
-        $('#toggleNormalPieChart').click(function () {
-            $("#test_results_pie_chart").toggle();
-        });
-
-        $('#toggleWeightedPieChart').click(function () {
-            $("#weighted_test_results_pie_chart").toggle();
-        });
-
-
-
-    })
-    ;
-    </script>
 </head>
 
 <body class="results-page">
 <div id="topheader">
     <div id="topbanner">
-        <div id="logo"><a href="index.html"><img src="images/serenity-bdd-logo.png" border="0"/></a></div>
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
         <div id="projectname-banner" style="float:right">
             <span class="projectname"></span>
         </div>
@@ -186,7 +81,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-01-2019 16:09</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-02-2019 13:19</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -227,8 +122,12 @@
 </div>
 </div>
 <div id="beforefooter"></div>
-<div id="bottomfooter">
-    <span class="version">Serenity version 1.1.42</span>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <span class="version">Serenity BDD version 2.0.30</span>
+        </div>
+    </div>
 </div>
 
 </body>
