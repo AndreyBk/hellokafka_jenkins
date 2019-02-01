@@ -17,8 +17,8 @@ public class WhenAuthenticating {
     @Steps
     private DecohereUser _user;
 
-//    @Managed(driver = "chrome")
-    @Managed
+    @Managed(driver = "chrome")
+//    @Managed
     WebDriver _browser;
 
     @Test
